@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("nature-images..webp");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(240, 234, 234);
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+label {
+    font-size: 1.2em;
+    color: darkblue;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+input[type="number"]::placeholder {
+    color: #999;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #4facfe;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
